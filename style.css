@@ -1,0 +1,18 @@
+@font-face {
+    font-family: sheikh;
+    src: url(./ClearSansDisplayRegular.ttf);
+}
+@keyframes anime {
+    from{
+        transform: translatex(0);
+    }
+    to{
+        transform: translate(-100%);
+    }
+}
+#animation{
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
